@@ -1,0 +1,93 @@
+# Traffic Light Detection
+
+This repository contains a Python-based application that detects traffic light colors (red, yellow, green) in a video feed using OpenCV. It allows for real-time color detection and logs detection timestamps to a file.
+
+---
+
+## Features
+
+- Detects red, yellow, and green colors from a video stream.
+- Adjustable HSV ranges using OpenCV trackbars.
+- Logs detection events with timestamps.
+- Displays processed video with detected traffic lights highlighted.
+
+---
+
+## Prerequisites
+
+Ensure you have the following installed on your system:
+
+- Python 3.x
+- OpenCV
+- NumPy
+
+Install dependencies using the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/traffic-light-detection.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd traffic-light-detection
+   ```
+
+3. Run the application:
+   ```bash
+   python main.py
+   ```
+
+4. Press `q` to exit the application.
+
+---
+
+## HSV Range Adjustment
+
+You can adjust HSV ranges for each color (red, yellow, green) using the OpenCV trackbars provided in the application window.
+
+---
+
+## Example Output
+
+### Screenshot
+![Traffic Light Detection Example](example_screenshot.png)
+
+### Video
+
+Watch a demo video showcasing the detection process:
+
+[![Traffic Light Detection Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+---
+
+## Logging
+
+Detection logs are saved to a file named `detections.txt` in the root directory. Each log entry includes the detected color and timestamp in seconds.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## Acknowledgments
+
+- [OpenCV Documentation](https://docs.opencv.org/)
+- [NumPy Documentation](https://numpy.org/doc/)
