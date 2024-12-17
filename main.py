@@ -97,5 +97,5 @@ def main(video_path):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    video_path = "dataset/lamp.mp4"
+    video_path = "dataset/lamp2.mp4"
     main(video_path)
