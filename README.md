@@ -46,10 +46,10 @@ This project is a real-time traffic light detection system implemented in Python
 ## Screenshots
 
 ### Detection in Action
-![Detection Screenshot](https://github.com/dansecret/Trafic_Light_Detection/raw/main/screenshoot/image.png)
+![Detection Screenshot](https://github.com/dansecret/Trafic_Light_Detection/blob/main/screenshots/Screenshot%20(2651).png))
 
 ### HSV Threshold Adjustment
-![HSV Threshold Adjustment](https://github.com/dansecret/Trafic_Light_Detection/raw/main/screenshoot/trackbars.png)
+![HSV Threshold Adjustment](https://github.com/dansecret/Trafic_Light_Detection/raw/main/screenshots/image.png)
 
 ## Demo Video
 
@@ -63,11 +63,10 @@ Trafic_Light_Detection/
 |-- detections.txt
 |-- requirements.txt
 |-- screenshots/
-|   |-- banner.png
-|   |-- detection.png
-|   |-- trackbars.png
+|   |-- Screenshot(2651).png
+|   |-- image.png
 |-- video/
-    |-- demo.mp4
+    |-- Detection.mp4
 ```
 
 ## Contributing
