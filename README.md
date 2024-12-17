@@ -27,12 +27,7 @@ This project is a real-time traffic light detection system implemented in Python
    cd Trafic_Light_Detection
    ```
 
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the program with your video file:
+2. Run the program with your video file:
    ```bash
    python main.py
    ```
@@ -46,14 +41,17 @@ This project is a real-time traffic light detection system implemented in Python
 ## Screenshots
 
 ### Detection in Action
-![Detection Screenshot](https://github.com/dansecret/Trafic_Light_Detection/blob/main/screenshots/Screenshot%20(2651).png))
+![Detection Screenshot](https://github.com/dansecret/Trafic_Light_Detection/blob/main/screenshots/red.png))
+![Detection Screenshot](https://github.com/dansecret/Trafic_Light_Detection/blob/main/screenshots/yellow.png))
+![Detection Screenshot](https://github.com/dansecret/Trafic_Light_Detection/blob/main/screenshots/green.png))
+![Detection Screenshot](https://github.com/dansecret/Trafic_Light_Detection/blob/main/screenshots/red1.png))
 
 ### HSV Threshold Adjustment
-![HSV Threshold Adjustment](https://github.com/dansecret/Trafic_Light_Detection/raw/main/screenshots/image.png)
+![HSV Threshold Adjustment](https://github.com/dansecret/Trafic_Light_Detection/raw/main/screenshots/ThreshHold.png)
 
 ## Demo Video
 
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://github.com/dansecret/Trafic_Light_Detection/raw/main/video/Detection.mp4)
+[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1kseOsQUwoWQfUmqI548xlhCAKRugv-L0/view?usp=sharing)
 
 ## File Structure
 
