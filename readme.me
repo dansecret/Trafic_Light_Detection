@@ -1,93 +1,83 @@
 # Traffic Light Detection
 
-This repository contains a Python-based application that detects traffic light colors (red, yellow, green) in a video feed using OpenCV. It allows for real-time color detection and logs detection timestamps to a file.
+![Traffic Light Detection Banner]
 
----
+## Overview
+
+This project is a real-time traffic light detection system implemented in Python using OpenCV. It detects red, yellow, and green lights from video streams and logs detections with timestamps.
 
 ## Features
 
-- Detects red, yellow, and green colors from a video stream.
-- Adjustable HSV ranges using OpenCV trackbars.
-- Logs detection events with timestamps.
-- Displays processed video with detected traffic lights highlighted.
-
----
+- Real-time detection of traffic light colors (red, yellow, green)
+- Adjustable HSV thresholds for color filtering using trackbars
+- Logs detected colors with timestamps to a text file
+- Displays processed frames in HSV, grayscale, and annotated formats
 
 ## Prerequisites
-
-Ensure you have the following installed on your system:
 
 - Python 3.x
 - OpenCV
 - NumPy
 
-Install dependencies using the following command:
+## Installation
 
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Usage
-
-1. Clone this repository:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/traffic-light-detection.git
+   git clone https://github.com/dansecret/Trafic_Light_Detection.git
+   cd Trafic_Light_Detection
    ```
 
-2. Navigate to the project directory:
+2. Install the required dependencies:
    ```bash
-   cd traffic-light-detection
+   pip install -r requirements.txt
    ```
 
-3. Run the application:
+3. Run the program with your video file:
    ```bash
    python main.py
    ```
 
-4. Press `q` to exit the application.
+## Usage
 
----
+1. Open the `main.py` file and set the `video_path` variable to your video file path.
+2. Adjust HSV thresholds using the trackbars to fine-tune the color detection for your video.
+3. Press `q` to exit the program.
 
-## HSV Range Adjustment
+## Screenshots
 
-You can adjust HSV ranges for each color (red, yellow, green) using the OpenCV trackbars provided in the application window.
+### Detection in Action
+![Detection Screenshot](https://github.com/dansecret/Trafic_Light_Detection/raw/main/screenshoot/image.png)
 
----
+### HSV Threshold Adjustment
+![HSV Threshold Adjustment](https://github.com/dansecret/Trafic_Light_Detection/raw/main/screenshoot/trackbars.png)
 
-## Example Output
+## Demo Video
 
-### Screenshot
-![Traffic Light Detection Example](example_screenshot.png)
+[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://github.com/dansecret/Trafic_Light_Detection/raw/main/video/Detection.mp4)
 
-### Video
+## File Structure
 
-Watch a demo video showcasing the detection process:
-
-[![Traffic Light Detection Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
----
-
-## Logging
-
-Detection logs are saved to a file named `detections.txt` in the root directory. Each log entry includes the detected color and timestamp in seconds.
-
----
+```
+Trafic_Light_Detection/
+|-- main.py
+|-- detections.txt
+|-- requirements.txt
+|-- screenshots/
+|   |-- banner.png
+|   |-- detection.png
+|   |-- trackbars.png
+|-- video/
+    |-- demo.mp4
+```
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
-
----
+Contributions are welcome! Feel free to submit a pull request or open an issue to discuss improvements or report bugs.
 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
----
-
 ## Acknowledgments
 
-- [OpenCV Documentation](https://docs.opencv.org/)
-- [NumPy Documentation](https://numpy.org/doc/)
+Special thanks to the OpenCV community for providing robust libraries for image processing.
